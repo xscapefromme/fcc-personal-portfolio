@@ -315,3 +315,17 @@ i{
   border-radius: 5px;
   font-style: normal; 
 }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+background-color:#323841;
+color: white;
+border-top: 3px solid #C13B48;
+outline: 1px solid black;
+}
+
+footer span {
+  padding: 1rem;
+}
