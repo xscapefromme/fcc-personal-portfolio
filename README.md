@@ -8,6 +8,6 @@ Practicing and refining CSS and HTML skills. things clicking just little details
 - Trouble with the transitioning and the hover effect as well with the ::after psuedo element. Making button into display: inline-block was the reason why since by default its an inline so that was the reason transformX wasn't moving.
 
 - Having the right delay on hover for the projects. Still want to figure that out.
-
+- Navbar and header how to work it together
 
 - Footer and header outside of the main element but if the footer is part of the section then obviously footer is inside of main element. 
