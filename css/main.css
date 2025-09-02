@@ -40,9 +40,7 @@ main {
 
 
 nav ul{
-  display:flex;
-  align-items:stretch;       
-  gap:2.3rem;
+  display: flex;     
   height:100%;
   margin:0;
   padding:0;
@@ -64,6 +62,7 @@ nav ul{
   line-height:1;
   border-bottom:2px solid transparent;  
   transition: background .25s ease, border-color .25s ease;
+  
 }
 
 
@@ -152,12 +151,12 @@ min-height: 100vh;
   text-align: center;
 }
 
-.project-title {
+#work {
   background: #475578;
   padding-top: 3.5rem;
 }
 
-.project-title h3 {
+#work h3 {
   text-align: center;
   color: white;
   font-size: 2rem;
@@ -198,7 +197,7 @@ min-height: 100vh;
   border-radius: 0 0 5px 5px;
 }
 
- #project-section a {
+.project-tile {
   text-decoration: none;
 } 
 
@@ -211,7 +210,7 @@ opacity: 0;
 
 
 
-.a:hover .p::after  {
+.project-tile:hover .p::after  {
   content: " >/";
   color: yellow;
   opacity: 1;
@@ -224,14 +223,14 @@ properly */
 
 
 
-p::before {
+project-tile::before {
   content: "";
   transition: opacity 1s ease;
   opacity: 0;
  transition-delay: .25s;
 }
 
-.a:hover .p::before {
+.project-tile:hover .p::before {
   content: "</ ";
   color: yellow;
   opacity: 1;
@@ -328,4 +327,24 @@ outline: 1px solid black;
 
 footer span {
   padding: 1rem;
+}
+
+@media (max-width:400px){
+  #project-section{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      gap: 10px;
+      margin: 1rem;
+  }
+
+
+
+}
+
+@media (max-width: 375px) {
+  nav ul {
+    width: 100%;
+    padding: 0 10px;
+  }
 }
