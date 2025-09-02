@@ -10,4 +10,5 @@ Practicing and refining CSS and HTML skills. things clicking just little details
 - Having the right delay on hover for the projects. Still want to figure that out.
 - Navbar and header how to work it together
 
-- Footer and header outside of the main element but if the footer is part of the section then obviously footer is inside of main element. 
+- Footer and header outside of the main element but if the footer is part of the section then obviously footer is inside of main element.
+- Using display grid for the structuring of the columns. Wanted to practice display: grid but obviously could have done it with display: flex. Display flex: flex-direction: column without needing a media query. Display: grid for overall layout. 
